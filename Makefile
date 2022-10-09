@@ -17,7 +17,7 @@ BIN ?= velero-plugin-for-csi
 
 BUILD_IMAGE ?= golang:1.18-buster
 
-REGISTRY ?= velero
+REGISTRY ?= ricsanfre
 IMAGE_NAME ?= $(REGISTRY)/velero-plugin-for-csi
 TAG ?= dev
 
